@@ -16,8 +16,7 @@ class Solution {
         return res;
     }
 
-    long solve(int i, int prevProd, int req, int k,
-               int[] nums, long[][] dp) {
+    long solve(int i, int prevProd, int req, int k,int[] nums, long[][] dp) {
 
         if (i >= nums.length)
             return 0;
